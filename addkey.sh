@@ -3,5 +3,6 @@ mkdir .ssh/
 touch .ssh/authorized_keys
 chmod 700 .ssh/
 chmod 600 .ssh/authorized_keys
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDILE2mZoK5aPNC6gJ3Gng9YAR28jXt6W8u5yqSrVHSPf7aJI7SEdsQhOeR4uUKYMtgwFqWydSEek5+MOEFBlt9HuZxHUIGrg0Wj2ASfXosnP7UXew4HiEITd2blJlzTcyYBhHC7fwfDmlMbajsYN1hwCQzWin83+nVfPB+huNYoffpikwvDaR/bBRkG70R4Wq/Qg5gA4rUNiB+T3bkkIzizHfMOTi6OiRTp4f0hWyzMYSElVHqsRit71SJuo1bDRDEpaV4N8HTsX3NC6+mdTpbjLyaYXyxNehESKCt85pHFOznQ/IUv31k6E7knAlwWpnOBRR7/0YmmJJPO+lcfzSYKu9ZoT+/SoaEF2D2BKhsItgqrfFFMF3RIdIdv9rt9Fb/aC3JrlgVcxgTDps2GJYqiYn4UQly2+6fNeeDF+OM/3k/74Kd0VZSqg9zebLYBDOrkCVeuEySI9hpoDxgfNKu2Wkug/EiNXeMI56fKneiI5rdTMDE/hlwHaGhfWKG53PRM2FeoBDWvYxncDRyDcurJfSvmK+KbVfBMAqvn+1gKaIc28wH/gx51LXl63JnaGPHBxg9CQstSqpDWXsPzLMODLiRXdReqMum7Q8zngNHidaJB7wYQCtP2y5YfuZrVwR7U/Lceoc7uxeWWSK9UFr9CIq2jawAiCutUHW0p6X8VQ== DK-A4L Aqua Key" >> .ssh/authorized_keys
-exit
+echo "what is the SSH public key?"
+read key
+echo $key >> .ssh/authorized_keys
