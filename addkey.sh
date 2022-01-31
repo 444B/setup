@@ -1,9 +1,3 @@
-#!/bin/bash
-sudo apt update
-apt upgrade -y
-adduser dk
-usermod -aG sudo dk
-su dk
 cd $HOME
 mkdir .ssh/
 touch .ssh/authorized_keys
